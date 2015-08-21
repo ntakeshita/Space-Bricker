@@ -31,7 +31,7 @@ public class BlockDestroy : MonoBehaviour {
 
 		// Setting the type of block.
 		if (type == 1) {
-			gameObject.GetComponent<SpriteRenderer>().color = Color.black;
+			gameObject.GetComponent<SpriteRenderer>().color = Color.white;
 			strength = health = Math.Min(gameController.level + 1, 5);
 		} else if (type == 2) {
 			gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
